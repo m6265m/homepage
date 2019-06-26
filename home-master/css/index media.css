@@ -1,0 +1,152 @@
+/*                     NAV WALI MEDIA              */
+
+
+@media screen and (max-width: 768px) {
+
+
+
+    #naya{
+        height: 60vh;
+        /*padding: 0 2em;*/
+        /*width: 100%;*/
+    }
+
+    #big-image img{
+        /*width: 100vh;*/
+    }
+
+    #doosra{
+        display: block;
+    }
+
+    .sign-in{
+        display: none;
+    }
+
+    #pehla{
+        display: none;
+    }
+
+    #pehla-cart{
+        display: none;
+    }
+
+    #doosra-cart{
+        display: block;
+        text-align: center;
+    }
+
+
+    .fa-envelope, .fa-map-marker-alt, .fa-phone, .fa-globe {
+        font-size: 10px;
+    }
+
+    .star-ratings {
+        font-size: 10px !important;
+    }
+
+    .fa-youtube, .fa-facebook, .fa-twitter-square {
+        font-size: 30px;
+    }
+
+    #navbar{
+        height: 6vh;
+    }
+
+    #navbar.black{
+        background-color: black;
+        /* padding: 1em; */
+    }
+
+    #navbar.black #menu ul li a{
+        color: black;
+    }
+
+    #menu{
+        /* display: none; */
+        transition: height 1s;
+        grid-area: c2;
+        place-content:  center;
+        /*position: fixed;*/
+        height: 100vh;
+        width: 100vw;
+        background-color: bisque;
+        clip-path: circle(100px at 90% -20%);
+        -webkit-clip-path: circle(100px at 90% -20%);
+        transition: all 1s ease-out;
+        width: 100vw;
+    }
+
+    #menu.open{
+        clip-path: circle(1600px at 90% -20%);
+        -webkit-clip-path: circle(1600px at 90% -20%);
+    }
+
+    #menu li {
+        /* opacity: 0; */
+    }
+
+    #menu li:nth-child(1) {
+        transition: all 0.5s ease 0.2s;
+    }
+
+    #menu li:nth-child(2) {
+        transition: all 0.5s ease 0.4s;
+    }
+
+    #menu li:nth-child(3) {
+        transition: all 0.5s ease 0.6s;
+    }
+
+    #menu li:nth-child(4) {
+        transition: all 0.5s ease 0.8s;
+    }
+
+    #menu li:nth-child(5) {
+        transition: all 0.5s ease 1s;
+    }
+
+    #menu li:nth-child(6) {
+        transition: all 0.5s ease 1.2s;
+    }
+
+    li.fade {
+        opacity: 1;
+    }
+
+    #menu ul{
+        display: unset;
+        text-align: center;
+        padding: 0;
+    }
+
+    #menu ul li{
+        padding: 3em 0;
+    }
+
+    #menu ul li a{
+        text-align: center;
+    }
+
+
+    #hamburger{
+        display: grid;
+        grid-area: c1;
+        place-content: center right;
+        z-index: 2;
+
+    }
+
+    #hamburger button{
+        border: none;
+        background-color: transparent;
+        margin: 0 2em 0 0;
+        cursor: pointer;
+    }
+
+    #details{
+        bottom: 143px;
+    }
+}
+
+
