@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
   }
 
 html,
@@ -86,10 +86,10 @@ display: block;
     /*height: 50%;*/
 }
 
-#big-image img{
+ img{
   display: block;
   width: 100%;
-    height: auto;
+    height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center;
@@ -98,12 +98,13 @@ display: block;
 .displayimg {
     /*-webkit-animation: zoomout 3s ease-in ;*/
     object-fit: cover; object-position: center;
-
     animation: zoomout 3s ease-in ;
 }
 
-.naya img{
-    /*position: relative;*/
+#naya {
+display: grid;
+    grid-template-rows: 0fr 1fr;
+
 }
 .img-heading {
   margin-top: 16px;
